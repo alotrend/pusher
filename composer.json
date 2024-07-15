@@ -1,0 +1,7 @@
+{
+    "name": "tu-nombre/mi-plugin-composer",
+    "description": "Un plugin personalizado usando Composer",
+    "require": {
+        "twilio/sdk": "^6.0"
+    }
+}
