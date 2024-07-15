@@ -6,7 +6,10 @@ Version: 1.0
 Author: Tu Nombre
 */
 
-require_once __DIR__ . '/vendor/autoload.php';
+// Incluir Composer autoload
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require_once __DIR__ . '/vendor/autoload.php';
+}
 
 use Twilio\Rest\Client;
 
